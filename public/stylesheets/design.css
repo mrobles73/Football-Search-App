@@ -1,0 +1,31 @@
+body{
+    /* background-color: yellowgreen; */
+    background-image: url("../images/field.jpg");
+    background-position: center 50%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.table-sortable .th-sort-asc::after {
+    content: "\25b4"
+}
+.table-sortable .th-sort-desc::after {
+    content: "\25be"
+}
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+.table-clickable {
+    cursor: pointer;
+}
+.league-logo {
+    width: 40px;
+    margin-right: 10px;
+}
+.team-logo {
+    width: 20px;
+}
